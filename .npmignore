@@ -1,0 +1,6 @@
+# Ignore everything
+*
+
+# But include the dist folder
+!dist/
+!dist/**/*

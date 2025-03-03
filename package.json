@@ -15,7 +15,7 @@
 		"start": "node dist/cli.js",
 		"dev": "ts-node src/cli.ts",
 		"format": "prettier . --write",
-		"test": "jest --passWithNoTests"
+		"prepublishOnly": "npm run build"
 	},
 	"keywords": [
 		"security",

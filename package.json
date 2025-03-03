@@ -1,6 +1,6 @@
 {
 	"name": "secret-finder",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A command-line tool to scan your codebase for sensitive information and secrets that should not be committed to your repository.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",

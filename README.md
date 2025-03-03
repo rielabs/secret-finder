@@ -2,6 +2,29 @@
 
 A command-line tool to scan your codebase for sensitive information and secrets that should not be committed to your repository.
 
+<details>
+<summary><strong>📑 Table of Contents</strong> (click to expand)</summary>
+
+- [Features](#features)
+- [Installation](#installation)
+  - [Global Installation](#global-installation)
+  - [Local Installation (Dev Dependency)](#local-installation-dev-dependency)
+- [Basic Usage](#basic-usage)
+  - [If installed globally](#if-installed-globally)
+  - [If installed locally](#if-installed-locally)
+- [CLI Options](#cli-options)
+- [Configuration (Optional)](#configuration-optional)
+- [Integration with Husky (Pre-commit Hook)](#integration-with-husky-pre-commit-hook)
+  - [Step 1: Install Husky](#step-1-install-husky)
+  - [Step 2: Create a Pre-commit Hook](#step-2-create-a-pre-commit-hook)
+  - [Step 3: (Optional) More Advanced Pre-commit Setup](#step-3-optional-more-advanced-pre-commit-setup)
+- [Troubleshooting](#troubleshooting)
+  - [No Staged Files Error](#no-staged-files-error)
+  - [Command Not Found](#command-not-found)
+  - [False Positives](#false-positives)
+- [License](#license)
+</details>
+
 ## Features
 
 - 🔍 Scan files for secrets and sensitive information
